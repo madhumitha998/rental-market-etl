@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: RENTAL_DB
+    schema: RAW
+    tables:
+      - name: troy_rentals

@@ -1,0 +1,97 @@
+[0m22:34:28.538579 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104403130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1060a7640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1060a7460>]}
+
+
+============================== 22:34:28.541194 | d9620c1a-f32f-4961-8cb9-b68766e299eb ==============================
+[0m22:34:28.541194 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m22:34:28.541549 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'empty': 'None', 'version_check': 'True', 'use_experimental_parser': 'False', 'printer_width': '80', 'warn_error': 'None', 'log_path': 'logs', 'static_parser': 'True', 'log_format': 'default', 'quiet': 'False', 'target_path': 'None', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt init rental_analytics', 'profiles_dir': '/Users/madhu/.dbt', 'debug': 'False', 'fail_fast': 'False', 'introspect': 'True', 'partial_parse': 'True', 'use_colors': 'True', 'log_cache_events': 'False', 'write_json': 'True', 'cache_selected_only': 'False'}
+[0m22:34:28.548842 [info ] [MainThread]: Creating dbt configuration folder at /Users/madhu/.dbt
+[0m22:34:28.549930 [debug] [MainThread]: Starter project path: /Users/madhu/Dev/Personal/rental_project/venv/lib/python3.9/site-packages/dbt/include/starter_project
+[0m22:34:28.553442 [info ] [MainThread]: 
+Your new dbt project "rental_analytics" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:34:28.553723 [info ] [MainThread]: Setting up your profile.
+[0m22:39:10.413131 [info ] [MainThread]: Profile rental_analytics written to /Users/madhu/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:39:10.445520 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 281.95886, "process_in_blocks": "0", "process_kernel_time": 0.215656, "process_mem_max_rss": "180584448", "process_out_blocks": "0", "process_user_time": 1.175012}
+[0m22:39:10.446644 [debug] [MainThread]: Command `dbt init` succeeded at 22:39:10.446426 after 281.96 seconds
+[0m22:39:10.450793 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104403130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105df8eb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1060a7310>]}
+[0m22:39:10.451537 [debug] [MainThread]: Flushing usage events
+[0m22:39:10.699375 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:39:35.103056 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104166130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105d3b5b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105d3b3d0>]}
+
+
+============================== 22:39:35.105985 | f98724c7-be31-43e0-9d59-95c4663af70f ==============================
+[0m22:39:35.105985 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m22:39:35.106318 [debug] [MainThread]: running dbt with arguments {'empty': 'None', 'profiles_dir': '/Users/madhu/.dbt', 'printer_width': '80', 'invocation_command': 'dbt debug', 'write_json': 'True', 'log_format': 'default', 'log_cache_events': 'False', 'warn_error': 'None', 'indirect_selection': 'eager', 'no_print': 'None', 'debug': 'False', 'static_parser': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'log_path': 'logs', 'quiet': 'False', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'introspect': 'True', 'send_anonymous_usage_stats': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_experimental_parser': 'False', 'partial_parse': 'True'}
+[0m22:39:35.114368 [info ] [MainThread]: dbt version: 1.11.0-b3
+[0m22:39:35.114662 [info ] [MainThread]: python version: 3.9.7
+[0m22:39:35.114844 [info ] [MainThread]: python path: /Users/madhu/Dev/Personal/rental_project/venv/bin/python3.9
+[0m22:39:35.115026 [info ] [MainThread]: os info: macOS-15.4.1-arm64-arm-64bit
+[0m22:39:35.795205 [info ] [MainThread]: Using profiles dir at /Users/madhu/.dbt
+[0m22:39:35.795506 [info ] [MainThread]: Using profiles.yml file at /Users/madhu/.dbt/profiles.yml
+[0m22:39:35.795692 [info ] [MainThread]: Using dbt_project.yml file at /Users/madhu/Dev/Personal/rental_project/dbt_project.yml
+[0m22:39:35.796013 [info ] [MainThread]: adapter type: snowflake
+[0m22:39:35.796230 [info ] [MainThread]: adapter version: 1.10.2
+[0m22:39:35.796415 [info ] [MainThread]: Configuration:
+[0m22:39:35.796582 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m22:39:35.796743 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m22:39:35.796894 [info ] [MainThread]: Required dependencies:
+[0m22:39:35.797075 [debug] [MainThread]: Executing "git --help"
+[0m22:39:35.820911 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:39:35.821511 [debug] [MainThread]: STDERR: "b''"
+[0m22:39:35.821734 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:39:35.821938 [info ] [MainThread]: Connection:
+[0m22:39:35.822168 [info ] [MainThread]:   account: EKPNGXZ-KJ84987
+[0m22:39:35.822339 [info ] [MainThread]:   user: MADHUMITHA998
+[0m22:39:35.822513 [info ] [MainThread]:   database: RENTAL_DB
+[0m22:39:35.822670 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m22:39:35.822827 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m22:39:35.822980 [info ] [MainThread]:   schema: ANALYTICS
+[0m22:39:35.823137 [info ] [MainThread]:   authenticator: None
+[0m22:39:35.823293 [info ] [MainThread]:   oauth_client_id: None
+[0m22:39:35.823445 [info ] [MainThread]:   query_tag: None
+[0m22:39:35.823601 [info ] [MainThread]:   client_session_keep_alive: False
+[0m22:39:35.823758 [info ] [MainThread]:   host: None
+[0m22:39:35.823910 [info ] [MainThread]:   port: None
+[0m22:39:35.824067 [info ] [MainThread]:   proxy_host: None
+[0m22:39:35.824220 [info ] [MainThread]:   proxy_port: None
+[0m22:39:35.824371 [info ] [MainThread]:   protocol: None
+[0m22:39:35.824525 [info ] [MainThread]:   connect_retries: 1
+[0m22:39:35.824674 [info ] [MainThread]:   connect_timeout: None
+[0m22:39:35.824828 [info ] [MainThread]:   retry_on_database_errors: False
+[0m22:39:35.824982 [info ] [MainThread]:   retry_all: False
+[0m22:39:35.825133 [info ] [MainThread]:   insecure_mode: False
+[0m22:39:35.825287 [info ] [MainThread]:   reuse_connections: True
+[0m22:39:35.825438 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m22:39:35.825873 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m22:39:35.921032 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m22:39:35.945364 [debug] [MainThread]: Using snowflake connection "debug"
+[0m22:39:35.945632 [debug] [MainThread]: On debug: select 1 as id
+[0m22:39:35.945802 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:39:37.504103 [debug] [MainThread]: SQL status: SUCCESS 1 in 1.558 seconds
+[0m22:39:37.505205 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m22:39:37.505606 [info ] [MainThread]: [31m1 check failed:[0m
+[0m22:39:37.505930 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/madhu/Dev/Personal/rental_project/dbt_project.yml> not found
+
+[0m22:39:37.511020 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 2.454376, "process_in_blocks": "0", "process_kernel_time": 0.28866, "process_mem_max_rss": "213762048", "process_out_blocks": "0", "process_user_time": 1.341957}
+[0m22:39:37.511474 [debug] [MainThread]: Command `dbt debug` failed at 22:39:37.511386 after 2.45 seconds
+[0m22:39:37.511797 [debug] [MainThread]: Connection 'debug' was left open.
+[0m22:39:37.512066 [debug] [MainThread]: On debug: Close
+[0m22:39:37.667553 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104166130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x117fe7eb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x117e67f40>]}
+[0m22:39:37.668078 [debug] [MainThread]: Flushing usage events
+[0m22:39:37.834868 [debug] [MainThread]: An error was encountered while trying to flush usage events
