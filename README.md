@@ -7,6 +7,11 @@
 
 An end-to-end data engineering pipeline designed to extract rental listing data, transform it through a multi-layered dbt architecture within a Snowflake cloud warehouse, and visualize market trends through an interactive Streamlit dashboard.
 
+## 🔗 Live Demo
+**View the interactive dashboard here: [https://rental-market-etl.streamlit.app/](https://rental-market-etl.streamlit.app/)**
+
+---
+
 ## 🏗 System Architecture
 The project follows a classic **ETL (Extract, Transform, Load)** pattern optimized for cloud-native analytics:
 
